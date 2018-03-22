@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cowsay": "^1.2.1",
     "enigma.js": "^2.2.0",
     "ws": "^5.1.0"
   }
