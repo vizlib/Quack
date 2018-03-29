@@ -2,20 +2,42 @@ const enigma = require('enigma.js');
 const WebSocket = require('ws');
 const fs = require("fs");
 const schema = require('enigma.js/schemas/12.34.11.json');
+const utils = require('./utils');
+var config = require('./config.json');
 
-// Engine API
-const docId = 'fb480889-8f0b-43fb-baf1-2dcdaad74222';
-const fileName = './data/engine-api.json';
+// create result folder struct
+const dirResults = './results';
+const dirData = './results/data';
+const dirScripts = './results/scripts';
+const dirFields = './results/fields';
+
+if (!fs.existsSync(dirResults)) {
+    fs.mkdirSync(dirResults);
+}
+if (!fs.existsSync(dirData)) {
+    fs.mkdirSync(dirData);
+}
+if (!fs.existsSync(dirScripts)) {
+    fs.mkdirSync(dirScripts);
+}
+if (!fs.existsSync(dirFields)) {
+    fs.mkdirSync(dirFields);
+}
+
+// iterate apps
+var docId = config.apps[0].id;
+var output = config.apps[0].output;
+const dataFile = `${dirData}/${output}-data.json`;
+const scriptFile = `${dirScripts}/${output}-api-script.qvs`;
+const fieldsFile = `${dirFields}/${output}-api-fields.json`;
 
 // fields to query
-const payload = [
-    "Title",
-    "Version",
-    "InterfaceName",
-    "InterfaceDeprecated",
-    "MethodName",
-    "MethodDeprecated"
-];
+var fields = config.apps[0].fields;
+const aliases = config.apps[0].aliases;
+
+const filterDeprecated = function(e) {
+    return e["Deprecated"] == "true";
+}  
 
 const nxPage = {
     "qTop": 0,
@@ -23,18 +45,6 @@ const nxPage = {
     "qWidth": 0,
     "qHeight": 0
 };
-
-const hyperCubeDef = {
-    qInfo: {
-        qId: "",
-        qType: "custom"
-    },
-    qHyperCubeDef: {
-        qDimensions: [],
-        qMeasures: [],
-        qInitialDataFetch: []
-    }
-}
 
 const fieldTags = {
     date: "$date",
@@ -64,68 +74,9 @@ const measureTypes = {
     IV: fieldTypes.discrete
 };
 
-function dateFromQlikNumber(n) {
-    // return: Date from QlikView number
-    var d = new Date(Math.round((n - 25569) * 86400 * 1000));
-    // since date was created in UTC shift it to the local timezone
-    d.setTime(d.getTime() + d.getTimezoneOffset() * 60 * 1000);
-    return d;
-}
-
-// generate qHyperCubeDef object out of payload
-function getHyperCubeFromPayload(payload, nxPage) {
-    var hyperCube = JSON.parse(JSON.stringify(hyperCubeDef));
-
-    if (payload) {
-        if (payload instanceof Array) {
-            // column list
-            payload.forEach((e) => {
-                if (typeof e === "string") {
-                    if (e.trim().substring(0, 1) === "=") {
-                        // measure
-                        hyperCube.qHyperCubeDef.qMeasures.push({
-                            qDef: { qDef: e }
-                        });
-                    } else {
-                        // dimension
-                        hyperCube.qHyperCubeDef.qDimensions.push({
-                            qDef: { qFieldDefs: [e] },
-                        });
-                    }
-                } else if (typeof e === "object") {
-                    if (e.hasOwnProperty("qDef")) {
-                        if (e.qDef.hasOwnProperty("qDef")) {
-                            // measure
-                            hyperCube.qHyperCubeDef.qMeasures.push(e);
-                        } else if (e.qDef.hasOwnProperty("qFieldDefs")) {
-                            // dimension
-                            hyperCube.qHyperCubeDef.qDimensions.push(e);
-                        }
-                    }
-                }
-            });
-        } else if (typeof payload === "object") {
-            // hypercube object
-            if (payload.hasOwnProperty('qHyperCubeDef')) {
-                hyperCube.qHyperCubeDef = payload.qHyperCubeDef;
-            } else {
-                hyperCube.qHyperCubeDef = payload;
-            }
-        }
-        hyperCube.qHyperCubeDef.qInitialDataFetch = [nxPage];
-    }
-    return hyperCube;
-}
-
-function genericCatch(error) {
-    docsession.close();
-    console.error('Error occured:', error);
-}
-
-
 const docsession = enigma.create({
     schema,
-    url: `wss://branch.qlik.com/anon/app/${docId}`,
+    url: `wss://${config.server}/${config.prefix}/app/${docId}`,
     createSocket: url => new WebSocket(url)
 });
 
@@ -135,15 +86,13 @@ docsession.open()
     .then(global => {
         return global.openDoc(docId);
     })
-    .catch(genericCatch)
+    .catch(utils.genericCatch)
     .then((doc) => {
         doc.getScript()
-            .catch(genericCatch)
+            .catch(utils.genericCatch)
             .then((script) => {
-                console.log("-----------------");
-                console.log("Script:");
-                console.log(script);
-                console.log("-----------------");
+                console.log("Writing Script: ", scriptFile);
+                fs.writeFileSync(scriptFile, script, "utf8");
             })
         doc.createSessionObject({
             qInfo: {
@@ -153,19 +102,17 @@ docsession.open()
             qFieldListDef: {
             }
         })
-            .catch(genericCatch)
-            .then((obj) => {
-                obj.getLayout()
-                    .catch(genericCatch)
-                    .then((layout) => {
-                        console.log("-----------------");
-                        console.log("Fields:");
-                        console.log(JSON.stringify(layout.qFieldList.qItems.map((e) => { return e.qName; })));
-                        console.log("-----------------");
-                    });
-            });
+        .catch(utils.genericCatch)
+        .then((obj) => {
+            obj.getLayout()
+                .catch(utils.genericCatch)
+                .then((layout) => {
+                    console.log("Writing Fields: ", fieldsFile);
+                    fs.writeFileSync(fieldsFile, JSON.stringify(layout.qFieldList.qItems.map((e) => { return e.qName; })), "utf8");
+                });
+        });
 
-        var hyperCube = getHyperCubeFromPayload(payload, nxPage);
+        var hyperCube = utils.getHyperCubeFromPayload(fields, aliases, nxPage);
         if (hyperCube.qHyperCubeDef.hasOwnProperty('qDimensions')) {
             w += hyperCube.qHyperCubeDef.qDimensions.length;
         }
@@ -178,15 +125,14 @@ docsession.open()
         //console.log(JSON.stringify(hyperCube));
         return doc.createSessionObject(hyperCube);
     })
-    .catch(genericCatch)
+    .catch(utils.genericCatch)
     .then((obj) => {
         var nxPageToGet = nxPage;
         nxPageToGet.qTop = t;
         nxPageToGet.qWidth = w;
         nxPageToGet.qHeight = h;
-
         obj.getLayout()
-            .catch(genericCatch)
+            .catch(utils.genericCatch)
             .then(layout => {
                 if (layout.hasOwnProperty('qHyperCube')) {
                     return layout.qHyperCube;
@@ -215,10 +161,11 @@ docsession.open()
                     });
                 }
                 return obj.getHyperCubeData("/qHyperCubeDef", [nxPageToGet])
-                    .catch(genericCatch)
+                    .catch(utils.genericCatch)
                     .then(cube => {
                         docsession.close();
                         var res = [];
+                        console.log(JSON.stringify(cube));
                         if (cube.length > 0 && cube[0].hasOwnProperty('qMatrix')) {
                             cube[0].qMatrix.forEach(row => {
                                 var resVal = {};
@@ -251,7 +198,7 @@ docsession.open()
             })
             .then((res) => {
                 //console.log(JSON.stringify(res));
-                fs.writeFileSync(fileName, JSON.stringify(res), "utf8");
+                fs.writeFileSync(dataFile, JSON.stringify(res.filter(filterDeprecated)), "utf8");
             });
     })
     .catch((err) => {

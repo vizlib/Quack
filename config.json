@@ -1,0 +1,21 @@
+{
+    "server": "branch.qlik.com",
+    "prefix": "anon",
+    "apps": [
+        {
+            "id": "66c0a736-10aa-4ecc-8a16-1301e71050c8",
+            "name": "Engine API - Release External NEW",
+            "output": "engine-api",
+            "fields": [
+                "VersionTarget",
+                "Engine/Services/Service/Methods/Method.Name",
+                "Engine/Services/Service/Methods/Method.Deprecated"
+            ],
+            "aliases": [
+                "Version",
+                "Method",
+                "Deprecated"
+            ]
+        }
+    ]
+}
