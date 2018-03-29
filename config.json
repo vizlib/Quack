@@ -9,7 +9,7 @@
             "fields": [
                 "VersionTarget",
                 "Engine/Services/Service/Methods/Method.Name",
-                "Engine/Services/Service/Methods/Method.Deprecated"
+                "=MaxString({<[Engine/Services/Service/Methods/Method.Deprecated]={'true'}>}[Engine/Services/Service/Methods/Method.Deprecated])"
             ],
             "aliases": [
                 "Version",

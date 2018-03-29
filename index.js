@@ -35,10 +35,6 @@ const fieldsFile = `${dirFields}/${output}-fields.json`;
 var fields = config.apps[0].fields;
 const aliases = config.apps[0].aliases;
 
-const filterDeprecated = function(e) {
-    return e["Deprecated"] == "true";
-}  
-
 const nxPage = {
     "qTop": 0,
     "qLeft": 0,
@@ -198,7 +194,7 @@ docsession.open()
             })
             .then((res) => {
                 //console.log(JSON.stringify(res));
-                fs.writeFileSync(dataFile, JSON.stringify(res.filter(filterDeprecated)), "utf8");
+                fs.writeFileSync(dataFile, JSON.stringify(res), "utf8");
             });
     })
     .catch((err) => {
