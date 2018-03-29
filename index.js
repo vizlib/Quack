@@ -28,8 +28,8 @@ if (!fs.existsSync(dirFields)) {
 var docId = config.apps[0].id;
 var output = config.apps[0].output;
 const dataFile = `${dirData}/${output}-data.json`;
-const scriptFile = `${dirScripts}/${output}-api-script.qvs`;
-const fieldsFile = `${dirFields}/${output}-api-fields.json`;
+const scriptFile = `${dirScripts}/${output}-script.qvs`;
+const fieldsFile = `${dirFields}/${output}-fields.json`;
 
 // fields to query
 var fields = config.apps[0].fields;
