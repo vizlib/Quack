@@ -1,4 +1,4 @@
-# Q.U.A.CK - Qlik Unsupported Api Checker King
+# Q.U.A.C.K - Qlik Unsupported Api Checker King
 
 ![quack](quack.png)
 
