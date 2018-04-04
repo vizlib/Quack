@@ -194,7 +194,7 @@ docsession.open()
             })
             .then((res) => {
                 //console.log(JSON.stringify(res));
-                fs.writeFileSync(dataFile, JSON.stringify(res), "utf8");
+                fs.writeFileSync(dataFile, JSON.stringify(res, null, 4), "utf8");
             });
     })
     .catch((err) => {

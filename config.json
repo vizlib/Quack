@@ -3,18 +3,22 @@
     "prefix": "anon",
     "apps": [
         {
-            "id": "66c0a736-10aa-4ecc-8a16-1301e71050c8",
-            "name": "Engine API - Release External NEW",
-            "output": "engine-api",
+            "id": "557d299b-e557-45e3-9286-6b47bc189dd6",
+            "name": "Monitor release - public APIs NEW - Sense",
+            "output": "monitor-api",
             "fields": [
-                "VersionTarget",
-                "Engine/Services/Service/Methods/Method.Name",
-                "=MaxString({<[Engine/Services/Service/Methods/Method.Deprecated]={'true'}>}[Engine/Services/Service/Methods/Method.Deprecated])"
+                "ComponentName",
+                "ComparisonName",
+                "Product_Version",
+                "FieldID",
+                "=MaxString({<Status={'D'}>}Status)"
             ],
             "aliases": [
-                "Version",
-                "Method",
-                "Deprecated"
+                "ComponentName",
+                "ComparisonName",
+                "Product_Version",
+                "Element",
+                "Status"
             ]
         }
     ]
