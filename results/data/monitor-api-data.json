@@ -1,0 +1,981 @@
+[
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "NxDownloadOptions",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qNxDownloadOptions"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "NxDownloadInfo",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qNxDownloadInfo"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "FilterType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qFilterType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "CharEncodingType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qCharEncodingType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "DriveType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qDriveType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "FunctionGroup",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qFunctionGroup"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFieldsProperties",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qGenericDerivedFieldsProperties"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "BNFType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qBNFType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "char",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qchar"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "LogOnType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qLogOnType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "FolderItemType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qFolderItemType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "FileType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qFileType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "SearchContextType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qSearchContextType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "InteractType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qInteractType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "BNFDefMetaType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qBNFDefMetaType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "GenericConnectMachine",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qGenericConnectMachine"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "FieldAttrType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qFieldAttrType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "StateEnumType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qStateEnumType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "KeyType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qKeyType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "SearchGroupType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qSearchGroupType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "SearchGroupItemType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qSearchGroupItemType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "ErrorDataCode",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qErrorDataCode"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "OtherMode",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qOtherMode"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "OtherLimitMode",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qOtherLimitMode"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "OtherSortMode",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qOtherSortMode"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "TotalMode",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qTotalMode"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "February 2018",
+        "Element": "FieldType",
+        "Status": "R",
+        "Type": "property",
+        "SearchMode": "EXACT",
+        "Searches": [
+            "qFieldType"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "Doc-ExportReducedData",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "ExportReducedData"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "Doc-ExportReducedData",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "doc.exportReducedData",
+            "exportReducedData"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-SetProperties",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "SetProperties"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-SetProperties",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "genericDerivedFields.setProperties",
+            "setProperties"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetProperties",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "GetProperties"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetProperties",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "genericDerivedFields.getProperties",
+            "getProperties"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetInfo",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "GetInfo"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetInfo",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "genericDerivedFields.getInfo",
+            "getInfo"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetDerivedFieldData",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "GetDerivedFieldData"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetDerivedFieldData",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "genericDerivedFields.getDerivedFieldData",
+            "getDerivedFieldData"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetDerivedField",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "GetDerivedField"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetDerivedField",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "genericDerivedFields.getDerivedField",
+            "getDerivedField"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetListData",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "GetListData"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetListData",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "genericDerivedFields.getListData",
+            "getListData"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetDerivedFields",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "GetDerivedFields"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetDerivedFields",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "genericDerivedFields.getDerivedFields",
+            "getDerivedFields"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetDerivedGroups",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "GetDerivedGroups"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "GenericDerivedFields-GetDerivedGroups",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "genericDerivedFields.getDerivedGroups",
+            "getDerivedGroups"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "Global-ProductVersion",
+        "Status": "D",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "ProductVersion"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "Global-ProductVersion",
+        "Status": "D",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "global.productVersion",
+            "productVersion"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "Global-GetBNF",
+        "Status": "D",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "GetBNF"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "Global-GetBNF",
+        "Status": "D",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "global.getBNF",
+            "getBNF"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "Doc-ReduceData",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "ReduceData"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "Doc-ReduceData",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "doc.reduceData",
+            "reduceData"
+        ]
+    },
+    {
+        "ComponentName": "EngineAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "Doc-RemoveAllData",
+        "Status": "R",
+        "Type": "websocket",
+        "SearchMode": "AND",
+        "Searches": [
+            "jsonrpc",
+            "method",
+            "RemoveAllData"
+        ]
+    },
+    {
+        "ComponentName": "EnigmaJS",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "Doc-RemoveAllData",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "doc.removeAllData",
+            "removeAllData"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field",
+            "app.field",
+            "field"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#clear",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.clear",
+            "app.field.clear",
+            "field.clear",
+            "clear"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#lock",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.lock",
+            "app.field.lock",
+            "field.lock",
+            "lock"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#unlock",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.unlock",
+            "app.field.unlock",
+            "field.unlock",
+            "unlock"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#clearOther",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.clearOther",
+            "app.field.clearOther",
+            "field.clearOther",
+            "clearOther"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#selectAll",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.selectAll",
+            "app.field.selectAll",
+            "field.selectAll",
+            "selectAll"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#selectExcluded",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.selectExcluded",
+            "app.field.selectExcluded",
+            "field.selectExcluded",
+            "selectExcluded"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#selectAlternative",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.selectAlternative",
+            "app.field.selectAlternative",
+            "field.selectAlternative",
+            "selectAlternative"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#selectPossible",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.selectPossible",
+            "app.field.selectPossible",
+            "field.selectPossible",
+            "selectPossible"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#toggleSelect",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.toggleSelect",
+            "app.field.toggleSelect",
+            "field.toggleSelect",
+            "toggleSelect"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#selectMatch",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.selectMatch",
+            "app.field.selectMatch",
+            "field.selectMatch",
+            "selectMatch"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#select",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.select",
+            "app.field.select",
+            "field.select",
+            "select"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#selectValues",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.selectValues",
+            "app.field.selectValues",
+            "field.selectValues",
+            "selectValues"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.app.field#getData",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.app.field.getData",
+            "app.field.getData",
+            "field.getData",
+            "getData"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "QField#getMoreData",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "QField.getMoreData",
+            "getMoreData"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.global#getQvVersion",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.global.getQvVersion",
+            "global.getQvVersion",
+            "getQvVersion"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.navigation.return",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.navigation.return",
+            "navigation.return",
+            "return"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.navigation.SNAPSHOT",
+        "Status": "R",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.navigation.SNAPSHOT",
+            "navigation.SNAPSHOT",
+            "SNAPSHOT"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "February 2018",
+        "Element": "qlik.setOnError",
+        "Status": "D",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.setOnError",
+            "setOnError"
+        ]
+    },
+    {
+        "ComponentName": "CapabilityAPI",
+        "ComparisonName": "CapabilityAPI",
+        "Product_Version": "November 2017",
+        "Element": "qlik.global#getProductVersion",
+        "Status": "D",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "qlik.global.getProductVersion",
+            "global.getProductVersion",
+            "getProductVersion"
+        ]
+    },
+    {
+        "ComponentName": "BackendAPI",
+        "ComparisonName": "BackendAPI",
+        "Product_Version": "3.2 SR3",
+        "Element": "BackendApi#save",
+        "Status": "D",
+        "Type": "function",
+        "SearchMode": "OR",
+        "Searches": [
+            "backendApi.save",
+            "save"
+        ]
+    }
+]

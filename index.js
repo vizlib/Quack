@@ -34,6 +34,7 @@ const fieldsFile = `${dirFields}/${output}-fields.json`;
 // fields to query
 var fields = config.apps[0].fields;
 const aliases = config.apps[0].aliases;
+const doPostProcess = true;
 
 const nxPage = {
     "qTop": 0,
@@ -77,6 +78,99 @@ const docsession = enigma.create({
 });
 
 var w = 0, h = 10000, t = 0, page = 1;
+
+const postProcess = function(results) {
+    var postres = [];
+
+    results.forEach(function (item) {
+        var i = JSON.parse(JSON.stringify(item)), i2 = [], e = [];
+        if (item.hasOwnProperty("ComponentName") && item.hasOwnProperty("Element")) {
+            e = item.Element.split(/[-.#]+/);
+            if (item.ComponentName === "EngineAPI") {
+                if (item.hasOwnProperty("ComparisonName")) {
+                    if (item.ComparisonName === "Methods") {
+                        i.Type = "websocket";
+                        i.SearchMode = "AND";
+                        if (e.length >= 2) {
+                            i.Searches = ["jsonrpc", "method", e[1]];
+                        } else {
+                            i.Searches = ["jsonrpc", "method", e[0]];                            
+                        }
+                        postres.push(i);
+                        // create additional entry for enigma
+                        i2 = JSON.parse(JSON.stringify(i));
+                        i2.ComponentName = "EnigmaJS";
+                        i2.Type = "function";
+                        i2.SearchMode = "OR";
+                        i2.Searches = [utils.lowerFirstCase(e[0]) + "." + utils.lowerFirstCase(e[1]), utils.lowerFirstCase(e[1])];
+                        postres.push(i2);
+                    } else if (item.ComparisonName === "Definitions") {
+                        i.Type = "property";
+                        i.SearchMode = "EXACT";
+                        i.Searches = ["q" + item.Element];
+                        postres.push(i);
+                    }
+                }
+            } else if (item.ComponentName === "CapabilityAPI") {
+                i.Type = "function";
+                i.SearchMode = "OR";
+                switch(e.length) {
+                    case 4:
+                        i.Searches = [
+                            e[0] + "." + e[1] + "." + e[2] + "." + e[3], 
+                            e[1] + "." + e[2] + "." + e[3], 
+                            e[2] + "." + e[3], 
+                            e[3]
+                        ];
+                        break;
+                    case 3:
+                        i.Searches = [
+                            e[0] + "." + e[1] + "." + e[2], 
+                            e[1] + "." + e[2], 
+                            e[2]
+                        ];
+                        break;
+                    default:
+                        i.Searches = [
+                            e[0] + "." + e[1], 
+                            e[1]
+                        ];
+                }
+                postres.push(i);
+            } else if (item.ComponentName === "BackendAPI") {
+                i.Type = "function";
+                i.SearchMode = "OR";
+                if (e[0] === "BackendApi") {
+                    e[0] = utils.lowerFirstCase(e[0]);
+                }
+                switch(e.length) {
+                    case 4:
+                        i.Searches = [
+                            e[0] + "." + e[1] + "." + e[2] + "." + e[3], 
+                            e[1] + "." + e[2] + "." + e[3], 
+                            e[2] + "." + e[3], 
+                            e[3]
+                        ];
+                        break;
+                    case 3:
+                        i.Searches = [
+                            e[0] + "." + e[1] + "." + e[2], 
+                            e[1] + "." + e[2], 
+                            e[2]
+                        ];
+                        break;
+                    default:
+                        i.Searches = [
+                            e[0] + "." + e[1], 
+                            e[1]
+                        ];
+                }
+                postres.push(i);
+            }
+        }
+    });
+    return postres;
+}
 
 docsession.open()
     .then(global => {
@@ -161,7 +255,7 @@ docsession.open()
                     .then(cube => {
                         docsession.close();
                         var res = [];
-                        console.log(JSON.stringify(cube));
+                        //console.log(JSON.stringify(cube));
                         if (cube.length > 0 && cube[0].hasOwnProperty('qMatrix')) {
                             cube[0].qMatrix.forEach(row => {
                                 var resVal = {};
@@ -194,7 +288,12 @@ docsession.open()
             })
             .then((res) => {
                 //console.log(JSON.stringify(res));
-                fs.writeFileSync(dataFile, JSON.stringify(res, null, 4), "utf8");
+                console.log("Writing Data:   ", dataFile);
+                if (doPostProcess) {
+                    fs.writeFileSync(dataFile, JSON.stringify(postProcess(res), null, 4), "utf8");
+                } else {
+                    fs.writeFileSync(dataFile, JSON.stringify(res, null, 4), "utf8");
+                }
             });
     })
     .catch((err) => {
