@@ -11,7 +11,7 @@
                 "ComparisonName",
                 "Product_Version",
                 "FieldID",
-                "=MaxString({<Status={'D'}>}Status)"
+                "=MaxString({<Status={'D','R'}>}Status)"
             ],
             "aliases": [
                 "ComponentName",

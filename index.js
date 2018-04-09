@@ -79,6 +79,16 @@ const docsession = enigma.create({
 
 var w = 0, h = 10000, t = 0, page = 1;
 
+const postFilter = function(item) {
+    if (item.hasOwnProperty("ComponentName") && item.ComponentName === "CapabilityAPI"
+        && item.hasOwnProperty("Product_Version") && item.Product_Version === "February 2018" 
+        && item.hasOwnProperty("Status") && item.Status === "R") {
+        return false;
+    } else {
+        return true;
+    }
+}
+
 const postProcess = function(results) {
     var postres = [];
 
@@ -290,9 +300,9 @@ docsession.open()
                 //console.log(JSON.stringify(res));
                 console.log("Writing Data:   ", dataFile);
                 if (doPostProcess) {
-                    fs.writeFileSync(dataFile, JSON.stringify(postProcess(res), null, 4), "utf8");
+                    fs.writeFileSync(dataFile, JSON.stringify(postProcess(res.filter(postFilter)), null, 4), "utf8");
                 } else {
-                    fs.writeFileSync(dataFile, JSON.stringify(res, null, 4), "utf8");
+                    fs.writeFileSync(dataFile, JSON.stringify(res.filter(postFilter), null, 4), "utf8");
                 }
             });
     })
