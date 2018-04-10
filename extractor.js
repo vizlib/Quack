@@ -98,23 +98,24 @@ const postProcess = function(results) {
             e = item.Element.split(/[-.#]+/);
             if (item.ComponentName === "EngineAPI") {
                 if (item.hasOwnProperty("ComparisonName")) {
-                    if (item.ComparisonName === "Methods") {
-                        i.Type = "websocket";
-                        i.SearchMode = "AND";
-                        if (e.length >= 2) {
-                            i.Searches = ["jsonrpc", "method", e[1]];
-                        } else {
-                            i.Searches = ["jsonrpc", "method", e[0]];                            
-                        }
-                        postres.push(i);
-                        // create additional entry for enigma
-                        i2 = JSON.parse(JSON.stringify(i));
-                        i2.ComponentName = "EnigmaJS";
-                        i2.Type = "function";
-                        i2.SearchMode = "OR";
-                        i2.Searches = [utils.lowerFirstCase(e[0]) + "." + utils.lowerFirstCase(e[1]), utils.lowerFirstCase(e[1])];
-                        postres.push(i2);
-                    } else if (item.ComparisonName === "Definitions") {
+                    // if (item.ComparisonName === "Methods") {
+                    //     i.Type = "websocket";
+                    ////     i.SearchMode = "AND";
+                    //     if (e.length >= 2) {
+                    //         i.Searches = ["jsonrpc", "method", e[1]];
+                    //     } else {
+                    //         i.Searches = ["jsonrpc", "method", e[0]];                            
+                    //     }
+                    //     postres.push(i);
+                    //     // create additional entry for enigma
+                    //     i2 = JSON.parse(JSON.stringify(i));
+                    //     i2.ComponentName = "EnigmaJS";
+                    //     i2.Type = "function";
+                    //     i2.SearchMode = "OR";
+                    //     i2.Searches = [utils.lowerFirstCase(e[0]) + "." + utils.lowerFirstCase(e[1]), utils.lowerFirstCase(e[1])];
+                    //     postres.push(i2);
+                    // } else 
+                    if (item.ComparisonName === "Definitions") {
                         i.Type = "property";
                         i.SearchMode = "EXACT";
                         i.Searches = ["q" + item.Element];
@@ -123,55 +124,56 @@ const postProcess = function(results) {
                 }
             } else if (item.ComponentName === "CapabilityAPI") {
                 i.Type = "function";
-                i.SearchMode = "OR";
+                i.SearchMode = "AND";
+                i.Searches = [e[e.length -1]];
                 switch(e.length) {
                     case 4:
                         i.Searches = [
-                            e[0] + "." + e[1] + "." + e[2] + "." + e[3], 
-                            e[1] + "." + e[2] + "." + e[3], 
-                            e[2] + "." + e[3], 
+                            e[0], 
+                            e[1], 
+                            e[2], 
                             e[3]
                         ];
                         break;
                     case 3:
                         i.Searches = [
-                            e[0] + "." + e[1] + "." + e[2], 
-                            e[1] + "." + e[2], 
+                            e[0], 
+                            e[1], 
                             e[2]
                         ];
                         break;
                     default:
                         i.Searches = [
-                            e[0] + "." + e[1], 
+                            e[0], 
                             e[1]
                         ];
                 }
                 postres.push(i);
             } else if (item.ComponentName === "BackendAPI") {
                 i.Type = "function";
-                i.SearchMode = "OR";
+                i.SearchMode = "AND";
                 if (e[0] === "BackendApi") {
                     e[0] = utils.lowerFirstCase(e[0]);
                 }
                 switch(e.length) {
                     case 4:
                         i.Searches = [
-                            e[0] + "." + e[1] + "." + e[2] + "." + e[3], 
-                            e[1] + "." + e[2] + "." + e[3], 
-                            e[2] + "." + e[3], 
+                            e[0], 
+                            e[1], 
+                            e[2], 
                             e[3]
                         ];
                         break;
                     case 3:
                         i.Searches = [
-                            e[0] + "." + e[1] + "." + e[2], 
-                            e[1] + "." + e[2], 
+                            e[0], 
+                            e[1], 
                             e[2]
                         ];
                         break;
                     default:
                         i.Searches = [
-                            e[0] + "." + e[1], 
+                            e[0], 
                             e[1]
                         ];
                 }
