@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "enigma.js": "^2.2.0",
+    "findit": "^2.0.0",
     "ws": "^5.1.0"
   }
 }
