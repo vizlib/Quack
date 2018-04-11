@@ -6,23 +6,32 @@ const fs = require('fs');
 
 var apidata = require('./results/data/monitor-api-data.json');
 
+const storeTokens = false;
 const dirResults = './results';
 const dirTokens = './results/tokens';
 
-if (!fs.existsSync(dirResults)) {
-    fs.mkdirSync(dirResults);
-}
-if (!fs.existsSync(dirTokens)) {
-    fs.mkdirSync(dirTokens);
+if (storeTokens) {
+    if (!fs.existsSync(dirResults)) {
+        fs.mkdirSync(dirResults);
+    }
+    if (!fs.existsSync(dirTokens)) {
+        fs.mkdirSync(dirTokens);
+    }    
 }
 
-const extension = 'C:\\Users\\Win7\\Documents\\Qlik\\Sense\\Extensions\\Analytics8';
+// set extension and Sense version to check against:
+const extension = 'C:\\Users\\Win7\\Documents\\Qlik\\Sense\\Extensions\\SenseUI-BarChart';
+const productionVersion = 2017113;
+
+apidata = apidata.filter( e =>{ return e.SortValue <= productionVersion; })
+//console.log(JSON.stringify(apidata,null,4));
+
 var finder = find(extension);
 var files = [];
 var occurances = 0;
 
 finder.on('file', (file, stat) => {
-    if (path.extname(file) === ".js") {
+    if (path.extname(file) === ".js" && file.indexOf("\\node_modules\\") === -1) {
         files.push(file);
     }
 });
@@ -51,7 +60,9 @@ finder.on('end', () => {
                             loc: true
                         });
                         //console.log(tokens);
-                        fs.writeFileSync(dirTokens + '/' + path.basename(file) + '.json', JSON.stringify(tokens, null, 4), "utf8");
+                        if (storeTokens) {
+                            fs.writeFileSync(dirTokens + '/' + path.basename(file) + '.json', JSON.stringify(tokens, null, 4), "utf8");
+                        }
 
                         apidata.forEach(item => {
                             if (item.SearchMode === "EXACT" && item.Searches.length === 1) {
@@ -59,6 +70,7 @@ finder.on('end', () => {
                                     return e.type === "Identifier" && e.value === item.Searches[0]; 
                                 });
                                 if (res1.length > 0) {
+                                    occurances ++;
                                     console.log("found " + JSON.stringify(item.Searches) + " " + JSON.stringify(res1[0]));
                                 }
                             } else if (item.SearchMode === "AND" && item.Searches.length >= 1) {
@@ -73,6 +85,7 @@ finder.on('end', () => {
                                         }
                                     });
                                     if (allFound === item.Searches.length) {
+                                        occurances ++;
                                         console.log("found " + JSON.stringify(item.Searches) + " " + JSON.stringify(res2[0]));                                    
                                     }
                                 }
@@ -81,6 +94,7 @@ finder.on('end', () => {
                                     return e.type === "Identifier" && item.Searches.includes(e.value); 
                                 });
                                 if (res3.length > 0) {
+                                    occurances ++;
                                     console.log("found " + JSON.stringify(item.Searches) + " " + JSON.stringify(res3[0]));                                    
                                 }
                             }
@@ -92,7 +106,7 @@ finder.on('end', () => {
                 });
             });
     }, Promise.resolve([]));
-    res.then((occ) => {
-        console.log(`finished checking extension: ${extension}`);
+    res.then(() => {
+        console.log(`finished checking extension (${occurances} occurances): ${extension}`);
     });
 });
