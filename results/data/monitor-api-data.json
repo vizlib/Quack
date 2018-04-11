@@ -4,714 +4,1000 @@
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "NxDownloadOptions",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qNxDownloadOptions"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "NxDownloadInfo",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qNxDownloadInfo"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "FilterType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qFilterType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "CharEncodingType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qCharEncodingType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "DriveType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qDriveType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "FunctionGroup",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qFunctionGroup"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "GenericDerivedFieldsProperties",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qGenericDerivedFieldsProperties"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "BNFType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qBNFType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "char",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qchar"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "LogOnType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qLogOnType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "FolderItemType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qFolderItemType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "FileType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qFileType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "SearchContextType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qSearchContextType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "InteractType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qInteractType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "BNFDefMetaType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qBNFDefMetaType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "GenericConnectMachine",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qGenericConnectMachine"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "FieldAttrType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qFieldAttrType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "StateEnumType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qStateEnumType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "KeyType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qKeyType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "SearchGroupType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qSearchGroupType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "SearchGroupItemType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qSearchGroupItemType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "ErrorDataCode",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qErrorDataCode"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "OtherMode",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qOtherMode"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "OtherLimitMode",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qOtherLimitMode"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "OtherSortMode",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qOtherSortMode"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "TotalMode",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qTotalMode"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
         "Element": "FieldType",
-        "Status": "R",
-        "Type": "property",
-        "SearchMode": "EXACT",
-        "Searches": [
-            "qFieldType"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
         "Element": "Doc-ExportReducedData",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "ExportReducedData"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "February 2018",
-        "Element": "Doc-ExportReducedData",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "doc.exportReducedData",
-            "exportReducedData"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
         "Element": "GenericDerivedFields-SetProperties",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "SetProperties"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "February 2018",
-        "Element": "GenericDerivedFields-SetProperties",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "genericDerivedFields.setProperties",
-            "setProperties"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
         "Element": "GenericDerivedFields-GetProperties",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "GetProperties"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "February 2018",
-        "Element": "GenericDerivedFields-GetProperties",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "genericDerivedFields.getProperties",
-            "getProperties"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
         "Element": "GenericDerivedFields-GetInfo",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "GetInfo"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "February 2018",
-        "Element": "GenericDerivedFields-GetInfo",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "genericDerivedFields.getInfo",
-            "getInfo"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
         "Element": "GenericDerivedFields-GetDerivedFieldData",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "GetDerivedFieldData"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "February 2018",
-        "Element": "GenericDerivedFields-GetDerivedFieldData",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "genericDerivedFields.getDerivedFieldData",
-            "getDerivedFieldData"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
         "Element": "GenericDerivedFields-GetDerivedField",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "GetDerivedField"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "February 2018",
-        "Element": "GenericDerivedFields-GetDerivedField",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "genericDerivedFields.getDerivedField",
-            "getDerivedField"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
         "Element": "GenericDerivedFields-GetListData",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "GetListData"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "February 2018",
-        "Element": "GenericDerivedFields-GetListData",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "genericDerivedFields.getListData",
-            "getListData"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
         "Element": "GenericDerivedFields-GetDerivedFields",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "GetDerivedFields"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "February 2018",
-        "Element": "GenericDerivedFields-GetDerivedFields",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "genericDerivedFields.getDerivedFields",
-            "getDerivedFields"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
         "Element": "GenericDerivedFields-GetDerivedGroups",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "GetDerivedGroups"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "February 2018",
-        "Element": "GenericDerivedFields-GetDerivedGroups",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "genericDerivedFields.getDerivedGroups",
-            "getDerivedGroups"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
         "Element": "Global-ProductVersion",
-        "Status": "D",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "ProductVersion"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "February 2018",
-        "Element": "Global-ProductVersion",
-        "Status": "D",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "global.productVersion",
-            "productVersion"
-        ]
+        "Status": "D"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
         "Element": "Global-GetBNF",
-        "Status": "D",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "GetBNF"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "June 2017",
-        "Element": "Global-GetBNF",
-        "Status": "D",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "global.getBNF",
-            "getBNF"
-        ]
+        "Status": "D"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
         "Element": "Doc-ReduceData",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "ReduceData"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "June 2017",
-        "Element": "Doc-ReduceData",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "doc.reduceData",
-            "reduceData"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
         "Element": "Doc-RemoveAllData",
-        "Status": "R",
-        "Type": "websocket",
-        "SearchMode": "AND",
-        "Searches": [
-            "jsonrpc",
-            "method",
-            "RemoveAllData"
-        ]
-    },
-    {
-        "ComponentName": "EnigmaJS",
-        "ComparisonName": "Methods",
-        "Product_Version": "June 2017",
-        "Element": "Doc-RemoveAllData",
-        "Status": "R",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "doc.removeAllData",
-            "removeAllData"
-        ]
+        "Status": "R"
     },
     {
         "ComponentName": "CapabilityAPI",
         "ComparisonName": "CapabilityAPI",
         "Product_Version": "February 2018",
         "Element": "qlik.setOnError",
-        "Status": "D",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "qlik.setOnError",
-            "setOnError"
-        ]
+        "Status": "D"
     },
     {
         "ComponentName": "CapabilityAPI",
         "ComparisonName": "CapabilityAPI",
         "Product_Version": "November 2017",
         "Element": "qlik.global#getProductVersion",
-        "Status": "D",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "qlik.global.getProductVersion",
-            "global.getProductVersion",
-            "getProductVersion"
-        ]
+        "Status": "D"
     },
     {
         "ComponentName": "BackendAPI",
         "ComparisonName": "BackendAPI",
         "Product_Version": "3.2 SR3",
         "Element": "BackendApi#save",
-        "Status": "D",
-        "Type": "function",
-        "SearchMode": "OR",
-        "Searches": [
-            "backendApi.save",
-            "save"
-        ]
+        "Status": "D"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR3",
+        "Element": "Color - SysColor - Script",
+        "Status": "D"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR3",
+        "Element": "Color - SysColor - Chart",
+        "Status": "D"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR4",
+        "Element": "String - LevenshteinDist - Script",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR4",
+        "Element": "String - LevenshteinDist - Chart",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR4",
+        "Element": "System - EngineVersion - Script",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR4",
+        "Element": "System - EngineVersion - Chart",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR5",
+        "Element": "Color - SysColor - Script",
+        "Status": "D"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR5",
+        "Element": "Color - SysColor - Chart",
+        "Status": "D"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR5",
+        "Element": "Conditional - WildMatch5 - Script",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR5",
+        "Element": "Conditional - WildMatch5 - Chart",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR5",
+        "Element": "System - GetRegistryString - Script",
+        "Status": "D"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR5",
+        "Element": "File - GetFolderPath - Script",
+        "Status": "D"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "3.2 SR5",
+        "Element": "System - GetRegistryString - Chart",
+        "Status": "D"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "June 2017",
+        "Element": "None - Aggr - Chart",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "June 2017",
+        "Element": "None - ValueList - Chart",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "ScriptLanguageAPI",
+        "ComparisonName": "ScriptLanguageAPI",
+        "Product_Version": "June 2017",
+        "Element": "None - ValueLoop - Chart",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "ExternalChangeInfo",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "LocalConfig",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "AccessTypesInfoAnalyzerAccessType",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "AccessTypesInfoLoginAccessType",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "AccessTypesInfoProfessionalAccessType",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "AccessTypesInfoUserAccessType",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "AuditMatrixParametersPreviewRule",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "AuditMatrixParametersResourceRef",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "ExportParameters",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "OpenAppSessionInput",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "OpenAppSessionOutput",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "ServerNodeActivationContainer",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "ServerNodeRegistrationContainer",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "SyncRuleApplicationItem",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "SystemRuleApplicationItem",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "VirtualProxyLinkRequest",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "RemovedSystemRule",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "ServerNodeConfigurationRole",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "WebExtensionLibrary",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "WebExtensionType",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Definitions",
+        "Product_Version": "June 2017",
+        "Element": "Widget",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/selection/{id}/staticcontentreference:delete",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/selection/{id}/staticcontentreference/synthetic:put",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/selection/{id}/tabledefinitioncolumnbase:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/selection/{id}/tabledefinitioncolumnbase/full:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/selection/{id}/tabledefinitioncolumnbase/table:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/selection/{id}/tempcontent:delete",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/selection/{id}/tempcontent/synthetic:put",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/staticcontentreference:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/staticcontentreference/{id}:put",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/staticcontentreference/{id}:delete",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/staticcontentreference/many:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/staticcontentreference/previewcreateprivilege:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/tabledefinitioncolumnbase:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/tabledefinitioncolumnbase/full:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/tabledefinitioncolumnbase/table:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/tempcontent:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/tempcontent/{id}:put",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/tempcontent/{id}:delete",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/tempcontent/many:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/tempcontent/previewcreateprivilege:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/analyzeraccessgroup:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/analyzeraccesstype:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/analyzeraccessusage:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/content:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/datasegment:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/detail:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/externalchangeinfo:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/internal:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/localconfig:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/loginaccesstype:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/loginaccessusage:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/object:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/professionalaccessgroup:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/professionalaccesstype:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/professionalaccessusage:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/removedsystemrule:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/useraccessgroup:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/useraccesstype:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/useraccessusage:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/webextensionlibrary:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/webextensiontype:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/about/api/default/widget:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/sync/snapshot:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "February 2018",
+        "Element": "/qrs/download/app/{id}/{exportticketid}/{localfilename}:get",
+        "Status": "D"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/externalchangeinfo/{id}:delete",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/externalchangeinfo/{id}:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/externalchangeinfo/{id}:put",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/externalchangeinfo/count:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/externalchangeinfo/full:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/externalchangeinfo/many:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/externalchangeinfo/previewcreateprivilege:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/externalchangeinfo/table:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/externalchangeinfo:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/externalchangeinfo:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/selection/{id}/externalchangeinfo/count:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/selection/{id}/externalchangeinfo/full:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/selection/{id}/externalchangeinfo/synthetic:put",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/selection/{id}/externalchangeinfo/synthetic:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/selection/{id}/externalchangeinfo/table:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/selection/{id}/externalchangeinfo:delete",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/selection/{id}/externalchangeinfo:get",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "June 2017",
+        "Element": "/qrs/selection/externalchangeinfo:post",
+        "Status": "R"
+    },
+    {
+        "ComponentName": "RepositoryMainAPI",
+        "ComparisonName": "Methods",
+        "Product_Version": "September 2017",
+        "Element": "/qrs/app/{id}/export:get",
+        "Status": "D"
     }
 ]

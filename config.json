@@ -5,21 +5,35 @@
         {
             "id": "557d299b-e557-45e3-9286-6b47bc189dd6",
             "name": "Monitor release - public APIs NEW - Sense",
-            "output": "monitor-api",
-            "fields": [
-                "ComponentName",
-                "ComparisonName",
-                "Product_Version",
-                "FieldID",
-                "=MaxString({<Status={'D','R'}>}Status)"
-            ],
-            "aliases": [
-                "ComponentName",
-                "ComparisonName",
-                "Product_Version",
-                "Element",
-                "Status"
-            ]
+            "output": "monitor-release",
+            "versionlist": {
+                "output": "api-versions-data",
+                "fields": [
+                    "Product_Version",
+                    "SortValue"
+                ],
+                "aliases": [
+                    "Product_Version",
+                    "SortValue"
+                ]
+            },
+            "itemlist": {
+                "output": "monitor-api-data",
+                "fields": [
+                    "ComponentName",
+                    "ComparisonName",
+                    "Product_Version",
+                    "FieldID",
+                    "=MaxString({<Status={'D','R'}>}Status)"
+                ],
+                "aliases": [
+                    "ComponentName",
+                    "ComparisonName",
+                    "Product_Version",
+                    "Element",
+                    "Status"
+                ]
+            }
         }
     ]
 }

@@ -17,8 +17,9 @@ App used: Monitor release - public APIs NEW - Sense
 
 ## Extractor Results
 
-Example:
-[/results/data/monitor-api-data.json](/results/data/monitor-api-data.json)
+### API Versions, ordered: [/results/data/api-versions-data.json](/results/data/api-versions-data.json)
+
+### API Items for Code Checker: [/results/data/monitor-api-data.json](/results/data/monitor-api-data.json)
 
 ## Run Code Checker
 

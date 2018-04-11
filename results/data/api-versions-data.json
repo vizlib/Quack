@@ -1,0 +1,82 @@
+[
+    {
+        "Product_Version": "3.2 SR1",
+        "SortValue": 2016100
+    },
+    {
+        "Product_Version": "3.2 SR2",
+        "SortValue": 2016200
+    },
+    {
+        "Product_Version": "3.2 SR3",
+        "SortValue": 2016300
+    },
+    {
+        "Product_Version": "3.2 SR4",
+        "SortValue": 2016400
+    },
+    {
+        "Product_Version": "3.2 SR5",
+        "SortValue": 2016500
+    },
+    {
+        "Product_Version": "3.2",
+        "SortValue": 0
+    },
+    {
+        "Product_Version": "February 2018",
+        "SortValue": 2018020
+    },
+    {
+        "Product_Version": "February 2018 Patch 1",
+        "SortValue": 2018021
+    },
+    {
+        "Product_Version": "June 2017",
+        "SortValue": 2017060
+    },
+    {
+        "Product_Version": "June 2017 Patch 1",
+        "SortValue": 2017061
+    },
+    {
+        "Product_Version": "June 2017 Patch 2",
+        "SortValue": 2017062
+    },
+    {
+        "Product_Version": "June 2017 Patch 3",
+        "SortValue": 2017063
+    },
+    {
+        "Product_Version": "November 2017",
+        "SortValue": 2017110
+    },
+    {
+        "Product_Version": "November 2017 Patch 1",
+        "SortValue": 2017111
+    },
+    {
+        "Product_Version": "November 2017 Patch 2",
+        "SortValue": 2017112
+    },
+    {
+        "Product_Version": "November 2017 Patch 3",
+        "SortValue": 2017113
+    },
+    {
+        "Product_Version": "September 2017",
+        "SortValue": 2017090
+    },
+    {
+        "Product_Version": "September 2017 Patch 1",
+        "SortValue": 2017091
+    },
+    {
+        "Product_Version": "September 2017 Patch 2",
+        "SortValue": 2017092
+    },
+    {
+        "Product_Version": "September 2017 Patch 3",
+        "SortValue": 2017093
+    }
+]

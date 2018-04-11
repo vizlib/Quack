@@ -27,57 +27,17 @@ if (!fs.existsSync(dirFields)) {
 // iterate apps
 var docId = config.apps[0].id;
 var output = config.apps[0].output;
-const dataFile = `${dirData}/${output}-data.json`;
 const scriptFile = `${dirScripts}/${output}-script.qvs`;
 const fieldsFile = `${dirFields}/${output}-fields.json`;
 
-// fields to query
-var fields = config.apps[0].fields;
-const aliases = config.apps[0].aliases;
+const doPostFilter = true;
 const doPostProcess = true;
-
-const nxPage = {
-    "qTop": 0,
-    "qLeft": 0,
-    "qWidth": 0,
-    "qHeight": 0
-};
-
-const fieldTags = {
-    date: "$date",
-    timestamp: "$timestamp",
-    ascii: "$ascii",
-    text: "$text",
-    numeric: "$numeric",
-    integer: "$integer"
-};
-
-const fieldTypes = {
-    discrete: "D",
-    numeric: "N",
-    timestamp: "T"
-};
-
-const measureTypes = {
-    U: fieldTypes.discrete,
-    A: fieldTypes.discrete,
-    I: fieldTypes.numeric,
-    R: fieldTypes.numeric,
-    F: fieldTypes.numeric,
-    M: fieldTypes.numeric,
-    D: fieldTypes.timestamp,
-    T: fieldTypes.timestamp,
-    TS: fieldTypes.timestamp,
-    IV: fieldTypes.discrete
-};
 
 const docsession = enigma.create({
     schema,
     url: `wss://${config.server}/${config.prefix}/app/${docId}`,
     createSocket: url => new WebSocket(url)
 });
-
-var w = 0, h = 10000, t = 0, page = 1;
 
 const postFilter = function(item) {
     if (item.hasOwnProperty("ComponentName") && item.ComponentName === "CapabilityAPI"
@@ -129,22 +89,22 @@ const postProcess = function(results) {
                 switch(e.length) {
                     case 4:
                         i.Searches = [
-                            e[0], 
-                            e[1], 
+                            // e[0], 
+                            // e[1], 
                             e[2], 
                             e[3]
                         ];
                         break;
                     case 3:
                         i.Searches = [
-                            e[0], 
+                            // e[0], 
                             e[1], 
                             e[2]
                         ];
                         break;
                     default:
                         i.Searches = [
-                            e[0], 
+                            // e[0], 
                             e[1]
                         ];
                 }
@@ -195,7 +155,8 @@ docsession.open()
             .then((script) => {
                 console.log("Writing Script: ", scriptFile);
                 fs.writeFileSync(scriptFile, script, "utf8");
-            })
+            });
+           
         doc.createSessionObject({
             qInfo: {
                 qId: "",
@@ -214,99 +175,19 @@ docsession.open()
                 });
         });
 
-        var hyperCube = utils.getHyperCubeFromPayload(fields, aliases, nxPage);
-        if (hyperCube.qHyperCubeDef.hasOwnProperty('qDimensions')) {
-            w += hyperCube.qHyperCubeDef.qDimensions.length;
-        }
-        if (hyperCube.qHyperCubeDef.hasOwnProperty('qMeasures')) {
-            w += hyperCube.qHyperCubeDef.qMeasures.length;
-        }
-        if (w > 1) {
-            h = Math.floor(10000 / w);
-        }
-        //console.log(JSON.stringify(hyperCube));
-        return doc.createSessionObject(hyperCube);
-    })
-    .catch(utils.genericCatch)
-    .then((obj) => {
-        var nxPageToGet = nxPage;
-        nxPageToGet.qTop = t;
-        nxPageToGet.qWidth = w;
-        nxPageToGet.qHeight = h;
-        obj.getLayout()
-            .catch(utils.genericCatch)
-            .then(layout => {
-                if (layout.hasOwnProperty('qHyperCube')) {
-                    return layout.qHyperCube;
-                } else {
-                    return {};
+        return utils.executeQuery(doc, config.apps[0].versionlist, dirData)
+            .then(() => {
+                if (doPostFilter) {
+                    config.apps[0].itemlist.postFilter = postFilter;
                 }
-            })
-            .then(layout => {
-                //console.log(JSON.stringify(layout));
-                var names = [],
-                    types = [];
-                if (layout.hasOwnProperty('qDimensionInfo')) {
-                    layout.qDimensionInfo.forEach((dim) => {
-                        names.push(dim.qFallbackTitle);
-                        if (dim.qTags.indexOf(fieldTags.date) > -1 || dim.qTags.indexOf(fieldTags.timestamp) > -1) {
-                            types.push(fieldTypes.timestamp);
-                        } else {
-                            types.push(dim.qDimensionType);
-                        }
-                    });
-                }
-                if (layout.hasOwnProperty('qMeasureInfo')) {
-                    layout.qMeasureInfo.forEach((measure) => {
-                        names.push(measure.qFallbackTitle);
-                        types.push(measureTypes[measure.qNumFormat.qType]);
-                    });
-                }
-                return obj.getHyperCubeData("/qHyperCubeDef", [nxPageToGet])
-                    .catch(utils.genericCatch)
-                    .then(cube => {
-                        docsession.close();
-                        var res = [];
-                        //console.log(JSON.stringify(cube));
-                        if (cube.length > 0 && cube[0].hasOwnProperty('qMatrix')) {
-                            cube[0].qMatrix.forEach(row => {
-                                var resVal = {};
-                                row.forEach((value, i) => {
-                                    //console.log(i, types[i], value);
-                                    if (value.hasOwnProperty('qIsNull') && value.qIsNull) {
-                                        resVal[names[i]] = "null";
-                                    } else {
-                                        if (types[i] == fieldTypes.discrete) {
-                                            if (value.hasOwnProperty('qText')) {
-                                                resVal[names[i]] = value.qText;
-                                            } else if (value.hasOwnProperty('qNum')) {
-                                                resVal[names[i]] = value.qNum;
-                                            } else {
-                                                resVal[names[i]] = "null";
-                                            }
-                                        } else if (types[i] == fieldTypes.numeric) {
-                                            resVal[names[i]] = value.qNum;
-                                        } else if (types[i] == fieldTypes.timestamp) {
-                                            resVal[names[i]] = utils.dateFromQlikNumber(value.qNum).toJSON();
-                                        }
-                                    }
-                                });
-                                //console.log(resVal);
-                                res.push(resVal);
-                            });
-                        }
-                        return res;
-                    });
-            })
-            .then((res) => {
-                //console.log(JSON.stringify(res));
-                console.log("Writing Data:   ", dataFile);
                 if (doPostProcess) {
-                    fs.writeFileSync(dataFile, JSON.stringify(postProcess(res.filter(postFilter)), null, 4), "utf8");
-                } else {
-                    fs.writeFileSync(dataFile, JSON.stringify(res.filter(postFilter), null, 4), "utf8");
+                    config.apps[0].itemlist.postProcess = postProcess;
                 }
+                return utils.executeQuery(doc, config.apps[0].itemlist, dirData);
             });
+    })
+    .then(() => {
+        docsession.close();                     
     })
     .catch((err) => {
         console.log(err);
