@@ -3,6 +3,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "NxDownloadOptions",
         "Status": "R"
     },
@@ -10,6 +11,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "NxDownloadInfo",
         "Status": "R"
     },
@@ -17,6 +19,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "FilterType",
         "Status": "R"
     },
@@ -24,6 +27,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "CharEncodingType",
         "Status": "R"
     },
@@ -31,6 +35,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "DriveType",
         "Status": "R"
     },
@@ -38,6 +43,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "FunctionGroup",
         "Status": "R"
     },
@@ -45,6 +51,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "GenericDerivedFieldsProperties",
         "Status": "R"
     },
@@ -52,6 +59,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "BNFType",
         "Status": "R"
     },
@@ -59,6 +67,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "char",
         "Status": "R"
     },
@@ -66,6 +75,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "LogOnType",
         "Status": "R"
     },
@@ -73,6 +83,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "FolderItemType",
         "Status": "R"
     },
@@ -80,6 +91,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "FileType",
         "Status": "R"
     },
@@ -87,6 +99,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "SearchContextType",
         "Status": "R"
     },
@@ -94,6 +107,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "InteractType",
         "Status": "R"
     },
@@ -101,6 +115,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "BNFDefMetaType",
         "Status": "R"
     },
@@ -108,6 +123,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "GenericConnectMachine",
         "Status": "R"
     },
@@ -115,6 +131,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "FieldAttrType",
         "Status": "R"
     },
@@ -122,6 +139,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "StateEnumType",
         "Status": "R"
     },
@@ -129,6 +147,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "KeyType",
         "Status": "R"
     },
@@ -136,6 +155,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "SearchGroupType",
         "Status": "R"
     },
@@ -143,6 +163,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "SearchGroupItemType",
         "Status": "R"
     },
@@ -150,6 +171,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "ErrorDataCode",
         "Status": "R"
     },
@@ -157,6 +179,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "OtherMode",
         "Status": "R"
     },
@@ -164,6 +187,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "OtherLimitMode",
         "Status": "R"
     },
@@ -171,6 +195,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "OtherSortMode",
         "Status": "R"
     },
@@ -178,6 +203,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "TotalMode",
         "Status": "R"
     },
@@ -185,6 +211,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "FieldType",
         "Status": "R"
     },
@@ -192,6 +219,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "Doc-ExportReducedData",
         "Status": "R"
     },
@@ -199,6 +227,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "GenericDerivedFields-SetProperties",
         "Status": "R"
     },
@@ -206,6 +235,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "GenericDerivedFields-GetProperties",
         "Status": "R"
     },
@@ -213,6 +243,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "GenericDerivedFields-GetInfo",
         "Status": "R"
     },
@@ -220,6 +251,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "GenericDerivedFields-GetDerivedFieldData",
         "Status": "R"
     },
@@ -227,6 +259,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "GenericDerivedFields-GetDerivedField",
         "Status": "R"
     },
@@ -234,6 +267,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "GenericDerivedFields-GetListData",
         "Status": "R"
     },
@@ -241,6 +275,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "GenericDerivedFields-GetDerivedFields",
         "Status": "R"
     },
@@ -248,6 +283,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "GenericDerivedFields-GetDerivedGroups",
         "Status": "R"
     },
@@ -255,6 +291,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "Global-ProductVersion",
         "Status": "D"
     },
@@ -262,6 +299,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "Global-GetBNF",
         "Status": "D"
     },
@@ -269,6 +307,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "Doc-ReduceData",
         "Status": "R"
     },
@@ -276,6 +315,7 @@
         "ComponentName": "EngineAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "Doc-RemoveAllData",
         "Status": "R"
     },
@@ -283,6 +323,7 @@
         "ComponentName": "CapabilityAPI",
         "ComparisonName": "CapabilityAPI",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "qlik.setOnError",
         "Status": "D"
     },
@@ -290,6 +331,7 @@
         "ComponentName": "CapabilityAPI",
         "ComparisonName": "CapabilityAPI",
         "Product_Version": "November 2017",
+        "SortValue": 2017110,
         "Element": "qlik.global#getProductVersion",
         "Status": "D"
     },
@@ -297,6 +339,7 @@
         "ComponentName": "BackendAPI",
         "ComparisonName": "BackendAPI",
         "Product_Version": "3.2 SR3",
+        "SortValue": 2016300,
         "Element": "BackendApi#save",
         "Status": "D"
     },
@@ -304,6 +347,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR3",
+        "SortValue": 2016300,
         "Element": "Color - SysColor - Script",
         "Status": "D"
     },
@@ -311,6 +355,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR3",
+        "SortValue": 2016300,
         "Element": "Color - SysColor - Chart",
         "Status": "D"
     },
@@ -318,6 +363,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR4",
+        "SortValue": 2016400,
         "Element": "String - LevenshteinDist - Script",
         "Status": "R"
     },
@@ -325,6 +371,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR4",
+        "SortValue": 2016400,
         "Element": "String - LevenshteinDist - Chart",
         "Status": "R"
     },
@@ -332,6 +379,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR4",
+        "SortValue": 2016400,
         "Element": "System - EngineVersion - Script",
         "Status": "R"
     },
@@ -339,6 +387,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR4",
+        "SortValue": 2016400,
         "Element": "System - EngineVersion - Chart",
         "Status": "R"
     },
@@ -346,6 +395,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR5",
+        "SortValue": 2016500,
         "Element": "Color - SysColor - Script",
         "Status": "D"
     },
@@ -353,6 +403,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR5",
+        "SortValue": 2016500,
         "Element": "Color - SysColor - Chart",
         "Status": "D"
     },
@@ -360,6 +411,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR5",
+        "SortValue": 2016500,
         "Element": "Conditional - WildMatch5 - Script",
         "Status": "R"
     },
@@ -367,6 +419,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR5",
+        "SortValue": 2016500,
         "Element": "Conditional - WildMatch5 - Chart",
         "Status": "R"
     },
@@ -374,6 +427,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR5",
+        "SortValue": 2016500,
         "Element": "System - GetRegistryString - Script",
         "Status": "D"
     },
@@ -381,6 +435,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR5",
+        "SortValue": 2016500,
         "Element": "File - GetFolderPath - Script",
         "Status": "D"
     },
@@ -388,6 +443,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "3.2 SR5",
+        "SortValue": 2016500,
         "Element": "System - GetRegistryString - Chart",
         "Status": "D"
     },
@@ -395,6 +451,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "None - Aggr - Chart",
         "Status": "R"
     },
@@ -402,6 +459,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "None - ValueList - Chart",
         "Status": "R"
     },
@@ -409,6 +467,7 @@
         "ComponentName": "ScriptLanguageAPI",
         "ComparisonName": "ScriptLanguageAPI",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "None - ValueLoop - Chart",
         "Status": "R"
     },
@@ -416,6 +475,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "ExternalChangeInfo",
         "Status": "R"
     },
@@ -423,6 +483,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "LocalConfig",
         "Status": "R"
     },
@@ -430,6 +491,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "AccessTypesInfoAnalyzerAccessType",
         "Status": "R"
     },
@@ -437,6 +499,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "AccessTypesInfoLoginAccessType",
         "Status": "R"
     },
@@ -444,6 +507,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "AccessTypesInfoProfessionalAccessType",
         "Status": "R"
     },
@@ -451,6 +515,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "AccessTypesInfoUserAccessType",
         "Status": "R"
     },
@@ -458,6 +523,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "AuditMatrixParametersPreviewRule",
         "Status": "R"
     },
@@ -465,6 +531,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "AuditMatrixParametersResourceRef",
         "Status": "R"
     },
@@ -472,6 +539,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "ExportParameters",
         "Status": "R"
     },
@@ -479,6 +547,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "OpenAppSessionInput",
         "Status": "R"
     },
@@ -486,6 +555,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "OpenAppSessionOutput",
         "Status": "R"
     },
@@ -493,6 +563,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "ServerNodeActivationContainer",
         "Status": "R"
     },
@@ -500,6 +571,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "ServerNodeRegistrationContainer",
         "Status": "R"
     },
@@ -507,6 +579,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "SyncRuleApplicationItem",
         "Status": "R"
     },
@@ -514,6 +587,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "SystemRuleApplicationItem",
         "Status": "R"
     },
@@ -521,6 +595,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "VirtualProxyLinkRequest",
         "Status": "R"
     },
@@ -528,6 +603,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "RemovedSystemRule",
         "Status": "R"
     },
@@ -535,6 +611,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "ServerNodeConfigurationRole",
         "Status": "R"
     },
@@ -542,6 +619,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "WebExtensionLibrary",
         "Status": "R"
     },
@@ -549,6 +627,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "WebExtensionType",
         "Status": "R"
     },
@@ -556,6 +635,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Definitions",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "Widget",
         "Status": "R"
     },
@@ -563,6 +643,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/selection/{id}/staticcontentreference:delete",
         "Status": "R"
     },
@@ -570,6 +651,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/selection/{id}/staticcontentreference/synthetic:put",
         "Status": "R"
     },
@@ -577,6 +659,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/selection/{id}/tabledefinitioncolumnbase:get",
         "Status": "R"
     },
@@ -584,6 +667,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/selection/{id}/tabledefinitioncolumnbase/full:get",
         "Status": "R"
     },
@@ -591,6 +675,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/selection/{id}/tabledefinitioncolumnbase/table:post",
         "Status": "R"
     },
@@ -598,6 +683,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/selection/{id}/tempcontent:delete",
         "Status": "R"
     },
@@ -605,6 +691,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/selection/{id}/tempcontent/synthetic:put",
         "Status": "R"
     },
@@ -612,6 +699,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/staticcontentreference:post",
         "Status": "R"
     },
@@ -619,6 +707,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/staticcontentreference/{id}:put",
         "Status": "R"
     },
@@ -626,6 +715,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/staticcontentreference/{id}:delete",
         "Status": "R"
     },
@@ -633,6 +723,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/staticcontentreference/many:post",
         "Status": "R"
     },
@@ -640,6 +731,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/staticcontentreference/previewcreateprivilege:post",
         "Status": "R"
     },
@@ -647,6 +739,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/tabledefinitioncolumnbase:get",
         "Status": "R"
     },
@@ -654,6 +747,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/tabledefinitioncolumnbase/full:get",
         "Status": "R"
     },
@@ -661,6 +755,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/tabledefinitioncolumnbase/table:post",
         "Status": "R"
     },
@@ -668,6 +763,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/tempcontent:post",
         "Status": "R"
     },
@@ -675,6 +771,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/tempcontent/{id}:put",
         "Status": "R"
     },
@@ -682,6 +779,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/tempcontent/{id}:delete",
         "Status": "R"
     },
@@ -689,6 +787,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/tempcontent/many:post",
         "Status": "R"
     },
@@ -696,6 +795,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/tempcontent/previewcreateprivilege:post",
         "Status": "R"
     },
@@ -703,6 +803,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/analyzeraccessgroup:get",
         "Status": "R"
     },
@@ -710,6 +811,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/analyzeraccesstype:get",
         "Status": "R"
     },
@@ -717,6 +819,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/analyzeraccessusage:get",
         "Status": "R"
     },
@@ -724,6 +827,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/content:get",
         "Status": "R"
     },
@@ -731,6 +835,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/datasegment:get",
         "Status": "R"
     },
@@ -738,6 +843,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/detail:get",
         "Status": "R"
     },
@@ -745,6 +851,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/externalchangeinfo:get",
         "Status": "R"
     },
@@ -752,6 +859,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/internal:get",
         "Status": "R"
     },
@@ -759,6 +867,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/localconfig:get",
         "Status": "R"
     },
@@ -766,6 +875,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/loginaccesstype:get",
         "Status": "R"
     },
@@ -773,6 +883,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/loginaccessusage:get",
         "Status": "R"
     },
@@ -780,6 +891,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/object:get",
         "Status": "R"
     },
@@ -787,6 +899,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/professionalaccessgroup:get",
         "Status": "R"
     },
@@ -794,6 +907,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/professionalaccesstype:get",
         "Status": "R"
     },
@@ -801,6 +915,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/professionalaccessusage:get",
         "Status": "R"
     },
@@ -808,6 +923,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/removedsystemrule:get",
         "Status": "R"
     },
@@ -815,6 +931,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/useraccessgroup:get",
         "Status": "R"
     },
@@ -822,6 +939,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/useraccesstype:get",
         "Status": "R"
     },
@@ -829,6 +947,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/useraccessusage:get",
         "Status": "R"
     },
@@ -836,6 +955,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/webextensionlibrary:get",
         "Status": "R"
     },
@@ -843,6 +963,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/webextensiontype:get",
         "Status": "R"
     },
@@ -850,6 +971,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/about/api/default/widget:get",
         "Status": "R"
     },
@@ -857,6 +979,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/sync/snapshot:post",
         "Status": "R"
     },
@@ -864,6 +987,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "February 2018",
+        "SortValue": 2018020,
         "Element": "/qrs/download/app/{id}/{exportticketid}/{localfilename}:get",
         "Status": "D"
     },
@@ -871,6 +995,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/externalchangeinfo/{id}:delete",
         "Status": "R"
     },
@@ -878,6 +1003,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/externalchangeinfo/{id}:get",
         "Status": "R"
     },
@@ -885,6 +1011,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/externalchangeinfo/{id}:put",
         "Status": "R"
     },
@@ -892,6 +1019,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/externalchangeinfo/count:get",
         "Status": "R"
     },
@@ -899,6 +1027,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/externalchangeinfo/full:get",
         "Status": "R"
     },
@@ -906,6 +1035,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/externalchangeinfo/many:post",
         "Status": "R"
     },
@@ -913,6 +1043,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/externalchangeinfo/previewcreateprivilege:post",
         "Status": "R"
     },
@@ -920,6 +1051,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/externalchangeinfo/table:post",
         "Status": "R"
     },
@@ -927,6 +1059,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/externalchangeinfo:get",
         "Status": "R"
     },
@@ -934,6 +1067,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/externalchangeinfo:post",
         "Status": "R"
     },
@@ -941,6 +1075,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/selection/{id}/externalchangeinfo/count:get",
         "Status": "R"
     },
@@ -948,6 +1083,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/selection/{id}/externalchangeinfo/full:get",
         "Status": "R"
     },
@@ -955,6 +1091,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/selection/{id}/externalchangeinfo/synthetic:put",
         "Status": "R"
     },
@@ -962,6 +1099,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/selection/{id}/externalchangeinfo/synthetic:get",
         "Status": "R"
     },
@@ -969,6 +1107,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/selection/{id}/externalchangeinfo/table:post",
         "Status": "R"
     },
@@ -976,6 +1115,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/selection/{id}/externalchangeinfo:delete",
         "Status": "R"
     },
@@ -983,6 +1123,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/selection/{id}/externalchangeinfo:get",
         "Status": "R"
     },
@@ -990,6 +1131,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "June 2017",
+        "SortValue": 2017060,
         "Element": "/qrs/selection/externalchangeinfo:post",
         "Status": "R"
     },
@@ -997,6 +1139,7 @@
         "ComponentName": "RepositoryMainAPI",
         "ComparisonName": "Methods",
         "Product_Version": "September 2017",
+        "SortValue": 2017090,
         "Element": "/qrs/app/{id}/export:get",
         "Status": "D"
     }
