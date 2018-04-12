@@ -1,4 +1,4 @@
-# Q.U.A.C.K - Qlik Unsupported Api Checker King
+# q.u.a.c.k - Qlik Unsupported Api Checker King
 
 ![quack](quack.png)
 
@@ -23,30 +23,37 @@ App used: Monitor release - public APIs NEW - Sense
 
 ## Run Code Checker
 
-```node codecheck```
+```node codecheck <path-to-extension> <version>```
+
+```node codecheck C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart 2017113```
 
 ## Code Checker Results
 
 ```
-file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable\properties.js
-found "qlik" at line 1, pos 9:  define(['qlik',
-file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable\VizlibTable.js
-found "qlik" at line 31, pos 9:          "qlik",
-file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable\VizlibTable_scripts\horizontal-virtualization.js
-found "qlik" at line 2, pos 2:          'qlik',
-file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable\VizlibTable_scripts\VizlibTableSearchDirective.js
-found "qlik" at line 3, pos 9:  define(['qlik', 'qvangular'], function (qlik, qvangular) {
-file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable\lib\angular-vs-repeat\angular-vs-repeat.js
-found "qlik" at line 6, pos 9:  define(['qlik', 'qvangular'], function (qlik, qvangular) {
-file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable\VizlibTable_scripts\cell\cell.directive.js
-found "qlik" at line 2, pos 2:          'qlik',
-file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable\VizlibTable_scripts\header-cell\header-cell.directive.js
-found "qlik" at line 2, pos 2:          'qlik',
-file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable\VizlibTable_scripts\row\row.directive.js
-found "qlik" at line 2, pos 2:          'qlik',
-file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable\VizlibTable_scripts\totals\totals.directive.js
-found "qlik" at line 2, pos 2:          'qlik',
-file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable\VizlibTable_scripts\shared\alternate-states\alternateStates.js
-found "qlik" at line 1, pos 9:  define(["qlik",
-finished checking extension (10 occurances): C:\Users\Win7\Documents\Qlik\Sense\Extensions\VizlibTable
+q.u.a.c.k
+
+Starting code check of extension: C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart
+against Qlik Sense version: 2018021 (February 2018 Patch 1)
+
+process file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart\senseui-barchart.js
+process file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart\lib\d3.v4.min.js
+process file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart\lib\SenseUI-barchart-options.js
+Problem found at line: 7, column: 5
+{
+    "ComponentName": "EngineAPI",
+    "ComparisonName": "Definitions",
+    "Product_Version": "February 2018",
+    "SortValue": 2018020,
+    "Element": "OtherMode",
+    "Status": "R",
+    "Type": "property",
+    "SearchMode": "EXACT",
+    "Searches": [
+        "qOtherMode"
+    ]
+}
+process file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart\lib\functions.js
+
+Finished code check of extension: C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart
+Problems found: 1 occurances
 ```

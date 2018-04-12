@@ -1,3 +1,5 @@
+'use strict';
+
 const find = require('findit');
 const path = require('path');
 const esprima = require('esprima');
@@ -5,8 +7,9 @@ const readline = require('readline');
 const fs = require('fs');
 
 var apidata = require('./results/data/monitor-api-data.json');
+const apiversions = require('./results/data/api-versions-data.json');
 
-const storeTokens = false;
+const storeTokens = true;
 const dirResults = './results';
 const dirTokens = './results/tokens';
 
@@ -20,11 +23,18 @@ if (storeTokens) {
 }
 
 // set extension and Sense version to check against:
-const extension = 'C:\\Users\\Win7\\Documents\\Qlik\\Sense\\Extensions\\SenseUI-BarChart';
-const productionVersion = 2017113;
+const extension = process.argv[2] || 'C:\\Users\\Win7\\Documents\\Qlik\\Sense\\Extensions\\SenseUI-BarChart';
+const productionVersion = process.argv[3] || 2018021;
+const apiversion = apiversions.filter(e => { return e.SortValue == productionVersion; });
+var versionText = 'unknown';
+if (apiversion.length > 0) {
+    versionText = apiversion[0].Product_Version;
+}
+console.log('\x1Bc');
+console.log(`q.u.a.c.k`);
+console.log(`\nStarting code check of extension: ${extension}\nagainst Qlik Sense version: ${productionVersion} (${versionText})\n`);
 
 apidata = apidata.filter( e =>{ return e.SortValue <= productionVersion; })
-//console.log(JSON.stringify(apidata,null,4));
 
 var finder = find(extension);
 var files = [];
@@ -71,7 +81,7 @@ finder.on('end', () => {
                                 });
                                 if (res1.length > 0) {
                                     occurances ++;
-                                    console.log("found " + JSON.stringify(item.Searches) + " " + JSON.stringify(res1[0]));
+                                    console.log(`Problem found at line: ${res1[0].loc.start.line}, column: ${res1[0].loc.start.column}\n` + JSON.stringify(item, null, 4));
                                 }
                             } else if (item.SearchMode === "AND" && item.Searches.length >= 1) {
                                 var res2 = tokens.filter(e => { 
@@ -86,7 +96,7 @@ finder.on('end', () => {
                                     });
                                     if (allFound === item.Searches.length) {
                                         occurances ++;
-                                        console.log("found " + JSON.stringify(item.Searches) + " " + JSON.stringify(res2[0]));                                    
+                                        console.log(`Problem found at line: ${res2[0].loc.start.line}, column: ${res2[0].loc.start.column}\n` + JSON.stringify(item, null, 4));
                                     }
                                 }
                             } else if (item.SearchMode === "OR" && item.Searches.length >= 1) {
@@ -95,7 +105,7 @@ finder.on('end', () => {
                                 });
                                 if (res3.length > 0) {
                                     occurances ++;
-                                    console.log("found " + JSON.stringify(item.Searches) + " " + JSON.stringify(res3[0]));                                    
+                                    console.log(`Problem found at line: ${res3[0].loc.start.line}, column: ${res3[0].loc.start.column}\n` + JSON.stringify(item, null, 4));
                                 }
                             }
                         });
@@ -107,6 +117,6 @@ finder.on('end', () => {
             });
     }, Promise.resolve([]));
     res.then(() => {
-        console.log(`finished checking extension (${occurances} occurances): ${extension}`);
+        console.log(`\nFinished code check of extension: ${extension}\nProblems found: ${occurances} occurances`);
     });
 });

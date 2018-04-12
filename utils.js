@@ -143,7 +143,7 @@ exports.executeQuery = (doc, query, dirData) => {
                             if (query.postFilter) {
                                 res = res.filter(query.postFilter);
                             }
-                            if (query.doPostProcess) {
+                            if (query.postProcess) {
                                 res = query.postProcess(res);
                             }
                             return new Promise((resolve,reject) => {
