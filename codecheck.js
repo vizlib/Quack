@@ -1,7 +1,7 @@
 'use strict';
 
 const find = require('findit');
-const path = require('path');
+const path = require('upath');
 const esprima = require('esprima');
 const readline = require('readline');
 const fs = require('fs');
@@ -9,7 +9,8 @@ const fs = require('fs');
 var apidata = require('./results/data/monitor-api-data.json');
 const apiversions = require('./results/data/api-versions-data.json');
 
-const storeTokens = true;
+const storeTokens = false; // JSON.stringify Invalid string length, should use JSONStream https://www.bennadel.com/blog/3232-parsing-and-serializing-large-objects-using-jsonstream-in-node-js.htm
+const excludePaths = ['/lib','/node_modules'];
 const dirResults = './results';
 const dirTokens = './results/tokens';
 
@@ -41,8 +42,17 @@ var files = [];
 var occurances = 0;
 
 finder.on('file', (file, stat) => {
-    if (path.extname(file) === ".js" && file.indexOf("\\node_modules\\") === -1) {
-        files.push(file);
+    file = path.normalize(file);
+    if (path.extname(file) === ".js") {
+        var pathExlude = false;
+        excludePaths.forEach(p => {
+            if (!pathExlude && file.indexOf(p + '/') != -1) {
+                pathExlude = true;
+            }
+        });
+        if (!pathExlude) {
+            files.push(file);
+        }
     }
 });
 
@@ -71,6 +81,7 @@ finder.on('end', () => {
                         });
                         //console.log(tokens);
                         if (storeTokens) {
+                            console.log("Token length:", tokens.length);
                             fs.writeFileSync(dirTokens + '/' + path.basename(file) + '.json', JSON.stringify(tokens, null, 4), "utf8");
                         }
 
@@ -81,7 +92,7 @@ finder.on('end', () => {
                                 });
                                 if (res1.length > 0) {
                                     occurances ++;
-                                    console.log(`QUACK found at line: ${res1[0].loc.start.line}, column: ${res1[0].loc.start.column}\n` + JSON.stringify(item, null, 4));
+                                    console.log(`Problem found at line: ${res1[0].loc.start.line}, column: ${res1[0].loc.start.column}\n` + JSON.stringify(item, null, 4));
                                 }
                             } else if (item.SearchMode === "AND" && item.Searches.length >= 1) {
                                 var res2 = tokens.filter(e => { 
@@ -96,7 +107,7 @@ finder.on('end', () => {
                                     });
                                     if (allFound === item.Searches.length) {
                                         occurances ++;
-                                        console.log(`QUACK found at line: ${res2[0].loc.start.line}, column: ${res2[0].loc.start.column}\n` + JSON.stringify(item, null, 4));
+                                        console.log(`Problem found at line: ${res2[0].loc.start.line}, column: ${res2[0].loc.start.column}\n` + JSON.stringify(item, null, 4));
                                     }
                                 }
                             } else if (item.SearchMode === "OR" && item.Searches.length >= 1) {
@@ -105,7 +116,7 @@ finder.on('end', () => {
                                 });
                                 if (res3.length > 0) {
                                     occurances ++;
-                                    console.log(`QUACK found at line: ${res3[0].loc.start.line}, column: ${res3[0].loc.start.column}\n` + JSON.stringify(item, null, 4));
+                                    console.log(`Problem found at line: ${res3[0].loc.start.line}, column: ${res3[0].loc.start.column}\n` + JSON.stringify(item, null, 4));
                                 }
                             }
                         });
@@ -117,6 +128,6 @@ finder.on('end', () => {
             });
     }, Promise.resolve([]));
     res.then(() => {
-        console.log(`\nFinished code check of extension: ${extension}\nQUACK(s) found: ${occurances} `);
+        console.log(`\nFinished code check of extension: ${extension}\n\nq.u.a.c.k found: ${occurances} occurances`);
     });
 });
