@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test-qlik": "node test/qlik-reference-test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,6 +12,9 @@
   "dependencies": {
     "enigma.js": "^2.2.0",
     "esprima": "^4.0.0",
+    "esrefactor": "^0.1.0",
+    "estraverse": "^4.2.0",
+    "esutils": "^2.0.2",
     "findit": "^2.0.0",
     "upath": "^1.0.4",
     "ws": "^5.1.0"
