@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "enigma.js": "^2.2.0",
+    "escodegen": "^1.9.1",
     "esprima": "^4.0.0",
     "esrefactor": "^0.1.0",
     "estraverse": "^4.2.0",
