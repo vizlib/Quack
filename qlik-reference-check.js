@@ -2,6 +2,7 @@ let esprima = require('esprima')
 let estraverse = require('estraverse')
 let esrefactor = require('esrefactor')
 let esutils = require('esutils')
+let escodegen = require('escodegen')
 let fs = require('fs')
 
 const getDefineImports = expression => {
@@ -95,10 +96,14 @@ const findUsages = (
       let referenceStatement = getBaseStatement(statements, reference.range)
 
       console.log(
-        `found reference for "${reference.name}" at line ${
+        `  found reference for "${reference.name}" at line ${
           referenceStatement.loc.start.line
         }`
       )
+
+      console.log('    ', escodegen.generate(referenceStatement))
+
+
 
       // add the given reference to the list of found stuff
       currentUsages.push({
