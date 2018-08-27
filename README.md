@@ -1,33 +1,32 @@
-# q.u.a.c.k - Qlik Unsupported Api Checker King
+# Q.U.A.C.K - Qlik Unsupported Api Checker King
 
 ![quack](quack.png)
 
-Extractor to build a check list for removed or deprecated properties and methods.
+Extractor to build a check list for removed or deprecated properties and methods for extensions built for [Qlik Sense](https://www.qlik.com/us/products/qlik-sense). APIs are checked against the [Monitor Release](https://branch.qlik.com/sense/app/557d299b-e557-45e3-9286-6b47bc189dd6) App
 
-App used: Monitor release - public APIs NEW - Sense
-[https://branch.qlik.com/sense/app/557d299b-e557-45e3-9286-6b47bc189dd6](https://branch.qlik.com/sense/app/557d299b-e557-45e3-9286-6b47bc189dd6)
+## Getting Started
 
-## Install
+### Install
 
 ```npm install```
 
-## Run Extractor
+### Run Extractor
 
 ```node extractor```
 
-## Extractor Results
+### Extractor Results
 
 **API Versions, ordered:** [/results/data/api-versions-data.json](/results/data/api-versions-data.json)
 
 **API Items for Code Checker:** [/results/data/monitor-api-data.json](/results/data/monitor-api-data.json)
 
-## Run Code Checker
+### Run Code Checker
 
 ```node codecheck <path-to-extension> <version>```
 
-```node codecheck C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart 2017113```
+e.g. ```node codecheck C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart 2017113```
 
-## Code Checker Results
+## Sample Results
 
 ```
 q.u.a.c.k
@@ -57,3 +56,7 @@ process file: C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart\lib
 Finished code check of extension: C:\Users\Win7\Documents\Qlik\Sense\Extensions\SenseUI-BarChart
 Problems found: 1 occurances
 ```
+
+## Contributing
+Thanks for your interest in contirbuting! Please read our [Code Of Conduct](./CODE_OF_CONDUCT.md) and [Contribution Guide](./CONTRIBUTION.md) and see a list of to-do features before contributing.
+
