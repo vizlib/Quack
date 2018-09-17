@@ -1,6 +1,6 @@
-# Q.U.A.C.K - Qlik Unsupported Api Checker King
+# QUACK - Qlik Unsupported Api Checker King
 
-![quack](quack.png)
+<img src="quack.png" width="200px" height="200px">
 
 Extractor to build a check list for removed or deprecated properties and methods for extensions built for [Qlik Sense](https://www.qlik.com/us/products/qlik-sense). APIs are checked against the [Monitor Release](https://branch.qlik.com/sense/app/557d299b-e557-45e3-9286-6b47bc189dd6) App
 
