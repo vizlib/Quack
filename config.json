@@ -1,5 +1,5 @@
 {
-    "server": "branch.qlik.com",
+    "server": "branch-sense.qlik.com",
     "prefix": "anon",
     "apps": [
         {
