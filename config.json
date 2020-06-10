@@ -3,7 +3,7 @@
     "prefix": "anon",
     "apps": [
         {
-            "id": "557d299b-e557-45e3-9286-6b47bc189dd6",
+            "id": "e70a7cda-1221-469e-b40c-384c5db88975",
             "name": "Monitor release - public APIs NEW - Sense",
             "output": "monitor-release",
             "versionlist": {
